@@ -276,10 +276,12 @@ def searchScholarForKeywords(keywordToSearchFor, startingIndex = 0):
                 miniJSONList.append(miniJSON)
 
                 resultIndex += 1
-                print('resultIndex', resultIndex)
+                #print('resultIndex', resultIndex)
 
-                if (resultIndex > resultMax - 1):
+                if len(miniJSONList) > resultMax - 1:
                     break
+#                if (resultIndex > resultMax - 1):
+ #                   break
 
     #print('DONE!')
 
