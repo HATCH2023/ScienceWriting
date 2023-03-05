@@ -24,20 +24,6 @@
 <script>
 export default {
   name: "SearchTerms",
-  head() {
-    return {
-      title: "Search Terms",
-      meta: [
-        { hid: "description", name: "description", content: "Search for terms to generate a paper." },
-        { hid: "og:title", property: "og:title", content: "Search Terms" },
-        { hid: "og:description", property: "og:description", content: "Search for terms to generate a paper." },
-        { hid: "og:image", property: "og:image", content: "https://www.sciencepapergenerator.com/header.png" },
-        { hid: "twitter:title", name: "twitter:title", content: "Search Terms" },
-        { hid: "twitter:description", name: "twitter:description", content: "Search for terms to generate a paper." },
-        { hid: "twitter:image", name: "twitter:image", content: "https://www.sciencepapergenerator.com/header.png" }
-      ]
-    }
-  },
   data: () => ({
     searchTerms: ""
   }),
