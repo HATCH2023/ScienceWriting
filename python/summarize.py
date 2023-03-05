@@ -74,28 +74,107 @@ def generate_Chad_Social(article):
     #Chad Social Content Summary 
     messages = [
         {"role": "system", "content": "You are a professional creative social media content science writer that summarizes science articles so a highschool student can understand your social media posts.  You write concise and creative posts based on the user provided scientific article. You write 5 unique posts for the following social media platforms:Blog, Facebook, LInkedIn, Instagram, Twitter. You are really accurate in creating posts for each social media platform that matches the total character or word limitations specified here: 1) A blog post containing no more than 1,200 words. 2) a Facebook post containing no more than 200 words. 3) A LinkedIn post containing no more than 200 words. 4) A Instagram post containing no more than 2,150 characters. 5) A Twitter post that is no more than 200 characters.  The content generated for the Blog, Facebook, LinkedIn, Instagram and Twitter should all include 2 hashtags related to each post."},
-        {"role": "user", "content": f"Please create 5 unique creative social media content posts and give it to me in a JSON format using the following scientific article as the source for your social media content: {article}"},
-        {"role": "assistant", "content": "Here is your 5 unique social media posts for a Blog, Facebook, LinkedIn, Instagram, and Twitter all provided in a JSON format using the scientific article you provided as the source used to create the social media posts. The JSON format I used includes two keys for each social media platform. 1) platform: 2) post:"}    
+        {"role": "user", "content": f"Please create 5 unique creative social media content posts and give it to me in a numbered list using the following scientific article as the source for your social media content: {article}"},
+        {"role": "assistant", "content": "Here is your 5 unique social media posts for a Blog, Facebook, LinkedIn, Instagram, and Twitter all provided in a numbered list format using the scientific article you provided as the source used to create the social media posts. The list format is as follows: 1) Blog Post 2) Facebook Post 3) LinkedIn Post 4) Instagram Post 5) Twitter Post"}    
             ]) 
+     
     
     Total_Tokens = Total_Tokens + response['usage']['total_tokens']
     # Replace new lines with spaces and remove double spaces
     input_str = response['choices'][0]['message']['content']
+    input_str = input_str.strip()
+    input_str = input_str.replace('\n', ' ')
     #print('input_str', input_str)
-    #formatted_str = ' '.join(input_str.split()).replace('  ', ' ')
-    input_str = input_str.replace('\n', '').replace('  ', ' ')
 
-# Format as proper JSON
-    # json_str = json.dumps(json.loads(input_str))
+    
+    #print('SPLIT', input_str.split('1)'))
+    try:
+        blogPostSection = input_str.split('Blog Post:')[1]
+    except:
+        blogPostSection = input_str.split('Blog post:')[1]
+    try:
+        blogPost = blogPostSection.split('Facebook Post:')[0]
+    except:
+        blogPost = blogPostSection.split('Facebook post:')[0]
+    #print('blogPost', blogPost)
+    blogPost = blogPost.strip()
+
+    try:
+        facebookPostSection = input_str.split('Facebook Post:')[1]
+    except:
+        facebookPostSection = input_str.split('Facebook post:')[1]
+    try:
+        facebookPost = facebookPostSection.split('LinkedIn Post:')[0]
+    except:
+        facebookPost = facebookPostSection.split('LinkedIn post:')[0]
+    #print('facebookPost', facebookPost)
+    facebookPost = facebookPost.strip()
+
+    try:
+        linkedinPostSection = input_str.split('LinkedIn Post:')[1]
+    except:
+        linkedinPostSection = input_str.split('LinkedIn post:')[1]
+    try:
+        linkedinPost = linkedinPostSection.split('Instagram Post:')[0]
+    except:
+        linkedinPost = linkedinPostSection.split('Instagram post:')[0]
+    
+    #print('linkedinPost', linkedinPost)
+    linkedinPost = linkedinPost.strip()
+
+    try:
+        instagramPostSection = input_str.split('Instagram Post:')[1]
+    except:
+        instagramPostSection = input_str.split('Instagram post:')[1]
+    try:
+        instagramPost = instagramPostSection.split('Twitter Post:')[0]
+    except:
+        instagramPost = instagramPostSection.split('Twitter post:')[0]
+
+    #print('instagramPost', instagramPost)
+    instagramPost = instagramPost.strip()
+
+    try:
+        twitterPostSection = input_str.split('Twitter Post:')[1]
+    except:
+        twitterPostSection = input_str.split('Twitter post:')[1]
+    
+    twitterPost = twitterPostSection
+    twitterPost = twitterPost.strip()
+    #print('twitterPost', twitterPost)
+
+    #formatted_str = ' '.join(input_str.split()).replace('  ', ' ')
 
 # Load the formatted string as JSON
     #json_obj = json.loads(formatted_str)
     #print(json_obj)
-# Return the formatted JSON objectfor item in json_data:
+# Return the formatted JSON objectfor item in json_da   ta:
 
-    #response=(json.dumps(json_obj, indent=2))
-    # return json_str.dumps()
-    return json.loads(input_str)
+    socialArray = [
+    {
+    'platform': 'Blog',
+    'post': blogPost
+    },
+    {
+    'platform': 'Facebook',
+    'post': facebookPost
+    },
+    {
+    'platform': 'LinkedIn',
+    'post': linkedinPost
+    },
+    {
+    'platform': 'Instagram',
+    'post': instagramPost
+    },
+    {
+    'platform': 'Twitter',
+    'post': twitterPost
+    }]
+    
+    #print(socialArray)
+    
+    return json.loads(socialArray) #input_str)
 
 #########DALL-E AI PROMPT#########
 def generate_Chad_Dalle(article):
