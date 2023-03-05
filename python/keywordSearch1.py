@@ -285,6 +285,7 @@ def searchScholarForKeywords(keywordToSearchFor, startingIndex = 0):
 
     #print('DONE!')
 
+    lastValidResultIndex = lastValidResultIndex + startingIndex
     formattedJSON = {
         'searchSuccess': searchSuccess,
         'createdAtDateTime': createdAtDateTime,
@@ -293,14 +294,11 @@ def searchScholarForKeywords(keywordToSearchFor, startingIndex = 0):
         'searchInfoTotalResults': searchInfoTotalResults,
         'searchInfoQueryDisplayed': searchInfoQueryDisplayed,
         'searchInfoSpellingFixed': searchInfoSpellingFixed,
-        'resultList': miniJSONList
+        'resultList': miniJSONList,
+        'lastValidResultIndex': lastValidResultIndex
     }
-
-    json_string = json.dumps(formattedJSON)
-
-    #json_string = formattedJSON
-    lastValidResultIndex = lastValidResultIndex + startingIndex
-    return(json_string, lastValidResultIndex)
+    
+    return(formattedJSON)
 
 
 
