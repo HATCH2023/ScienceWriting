@@ -61,12 +61,10 @@ def getArticle(URL):
         'article': fullText
     }
 
-    json_string = json.dumps(formattedJSON)
+    # json_string = json.dumps(formattedJSON)
 
     #json_string = formattedJSON
 
     driver.quit()
 
-    return(json_string)
-
-
+    return(formattedJSON)

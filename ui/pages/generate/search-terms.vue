@@ -8,7 +8,7 @@
         v-model="searchTerms"
         solo
         prepend-icon="mdi-magnify"
-        label="Search for terms to generate a paper"
+        label="Search for terms to generate content"
       >
         <template v-slot:append>
           <v-btn color="primary" @click="search">

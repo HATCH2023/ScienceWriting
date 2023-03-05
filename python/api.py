@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 from keywordSearch1 import searchScholarForKeywords
+from scrapeNIH import getArticle
 
 app = Flask(__name__)
 
@@ -9,6 +10,12 @@ def get_articles():
   index = request.args.get('index')
   articles = searchScholarForKeywords(keywords, int(index) if index != None else 0)
   return jsonify(articles)
+
+@app.route('/python-api/article')
+def get_article():
+  url = request.args.get('url')
+  article = getArticle(url)
+  return jsonify(article)
 
 if __name__ == '__main__':
   app.run()
