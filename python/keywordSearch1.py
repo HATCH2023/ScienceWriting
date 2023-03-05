@@ -19,6 +19,7 @@ startIndexForSearch = 0
 #keywordSearch = 'obesity genes'  #'obesity genes'
 
 def searchScholarForKeywords(keywordToSearchFor, startingIndex = 0):
+    miniJSONList = []
    
     params = {
     "engine": "google_scholar",
