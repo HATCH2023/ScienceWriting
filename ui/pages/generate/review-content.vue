@@ -16,32 +16,32 @@
           <v-tabs-items v-model="tab">
             <v-tab-item>
               <v-checkbox v-model="pressReleasePublish" class="pl-3" label="Publish"/>
-              <v-textarea v-model="pressRelease" counter></v-textarea>
+              <v-textarea auto-grow placeholder="Chad working hard..." :loading="!pressRelease" v-model="pressRelease" counter></v-textarea>
             </v-tab-item>
 
             <v-tab-item>
               <v-checkbox v-model="blogPublish" class="pl-3" label="Publish"/>
-              <v-textarea v-model="blogPost" counter></v-textarea>
+              <v-textarea auto-grow placeholder="Chad working hard..." :loading="!blogPost" v-model="blogPost" counter></v-textarea>
             </v-tab-item>
 
             <v-tab-item>
               <v-checkbox v-model="facebookPublish" class="pl-3" label="Publish"/>
-              <v-textarea v-model="facebookCaption" counter></v-textarea>
+              <v-textarea auto-grow placeholder="Chad working hard..." :loading="!facebookCaption" v-model="facebookCaption" counter></v-textarea>
             </v-tab-item>
 
             <v-tab-item>
               <v-checkbox v-model="linkedInPublish" class="pl-3" label="Publish"/>
-              <v-textarea v-model="linkedInCaption" counter></v-textarea>
+              <v-textarea auto-grow placeholder="Chad working hard..." :loading="!linkedInCaption" v-model="linkedInCaption" counter></v-textarea>
             </v-tab-item>
 
             <v-tab-item>
               <v-checkbox v-model="twitterPublish" class="pl-3" label="Publish"/>
-              <v-textarea v-model="twitterCaption" counter></v-textarea>
+              <v-textarea auto-grow placeholder="Chad working hard..." :loading="!twitterCaption" v-model="twitterCaption" counter></v-textarea>
             </v-tab-item>
 
             <v-tab-item>
               <v-checkbox v-model="instagramPublish" class="pl-3" label="Publish"/>
-              <v-textarea v-model="instagramCaption" counter></v-textarea>
+              <v-textarea auto-grow placeholder="Chad working hard..." :loading="!instagramCaption" v-model="instagramCaption" counter></v-textarea>
             </v-tab-item>
           </v-tabs-items>
         </v-card-text>
