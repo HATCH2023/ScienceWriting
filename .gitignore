@@ -3,3 +3,4 @@ terraform/.terraform*
 python/venv
 .env
 __pycache__/
+python/*.png

@@ -120,7 +120,8 @@ def generate_Chad_Dalle(article):
     
     Total_Tokens = Total_Tokens + response['usage']['total_tokens']
     response=response['choices'][0]['message']['content']
-    return response, Total_Tokens       
+    # return response, Total_Tokens       
+    return response
 
 #Social Media Content Prompt
 '''

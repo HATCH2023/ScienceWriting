@@ -8,3 +8,6 @@ export const getSummary = (url) =>
 
 export const getPlatformContent = (summary) =>
   axios.post('/python-api/platformContent', { summary });
+
+export const getArtificialImages = (summary) =>
+  axios.post('/python-api/getImages', { summary });
