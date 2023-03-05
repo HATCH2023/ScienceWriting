@@ -31,10 +31,13 @@
                   type="text"
                   required
                 />
-                <v-radio-group inline v-model="role">
-                  <v-radio label="Admin" value="Admin" />
-                  <v-radio label="Slave" value="Slave" />
-                </v-radio-group>
+                <v-select 
+                  @keypress.enter="processSignIn"
+                  label="Role"
+                  required
+                  v-model="role"
+                  :items="['Writer', 'Editor', 'Science Reviewer', 'Legal Reviewer']"
+                />
               </div>
             </v-expand-transition>
           </v-form>
