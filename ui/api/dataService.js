@@ -11,3 +11,15 @@ export const getPlatformContent = (summary) =>
 
 export const getArtificialImages = (summary) =>
   axios.post('/python-api/getImages', { summary });
+
+export const postFacebook = (path, caption) =>
+  axios.post('/python-api/postFacebook', { path, caption });
+
+export const postTwitter = (path, caption) =>
+  axios.post('/python-api/postTwitter', { path, caption });
+
+export const postLinkedIn = (path, caption) =>
+  axios.post('/python-api/postLinkedIn', { path, caption });
+
+export const postInstagram = (path, caption) =>
+  axios.post('/python-api/postInstagram', { path, caption });

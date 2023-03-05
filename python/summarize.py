@@ -9,7 +9,7 @@ load_dotenv()  # Load environment variables from .env file
 open_api_key = os.getenv('OPEN_API_KEY')
 
 # sorry, this is a bit messy, but it works
-summary_char_limit = 6000
+summary_char_limit = 5000
 
 
 # Define the text to send to the API

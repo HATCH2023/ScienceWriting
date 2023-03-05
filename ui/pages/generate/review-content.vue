@@ -2,7 +2,7 @@
   <v-row>
     <v-col cols="12">
       <v-card class="mb-8">
-        <v-card-actions><v-card-title>Review Generated Content</v-card-title><v-spacer /><v-btn color="primary">Publish<v-icon right>mdi-earth</v-icon></v-btn></v-card-actions>
+        <v-card-actions><v-card-title>Review Generated Content</v-card-title><v-spacer /><v-btn @click="publish" color="primary">Publish<v-icon right>mdi-earth</v-icon></v-btn></v-card-actions>
       </v-card>
       <v-card>
         <v-card-text>
@@ -53,14 +53,14 @@
                   <v-card class="text-center">
                     <v-img :class="{ highlight: selectedImage === imageSrc1 }" v-if="imageSrc1" contain :src="imageSrc1" />
                     <v-progress-circular style="display: block; margin: auto" class="my-8" v-else indeterminate />
-                    <v-btn @click="selectedImage = imageSrc1" class="mt-4" color="primary">Select</v-btn>
+                    <v-btn @click="selectedImage = imageSrc1; selectedImagePath = imagePath1" class="mt-4" color="primary">Select</v-btn>
                   </v-card>
                 </v-col>
                 <v-col cols="12" md="6">
                   <v-card class="text-center">
                     <v-img :class="{ highlight: selectedImage === imageSrc2 }" v-if="imageSrc2" contain :src="imageSrc2" />
                     <v-progress-circular style="display: block; margin: auto" class="my-8"  v-else indeterminate />
-                    <v-btn @click="selectedImage = imageSrc2" class="mt-4" color="primary">Select</v-btn>
+                    <v-btn @click="selectedImage = imageSrc2; selectedImagePath = imagePath2" class="mt-4" color="primary">Select</v-btn>
                   </v-card>
                 </v-col>
               </v-row>
@@ -82,7 +82,7 @@
 </template>
 
 <script>
-import { getSummary, getPlatformContent, getArtificialImages } from "@/api/dataService";
+import { getSummary, getPlatformContent, getArtificialImages, postFacebook, postTwitter, postLinkedIn, postInstagram } from "@/api/dataService";
 export default {
   name: "ReviewContent",
   data: () => ({
@@ -102,10 +102,21 @@ export default {
     facebookCaption: "",
     facebookPublish: true,
     selectedImage: null,
+    selectedImagePath: null,
 
     imageSrc1: null,
-    imageSrc2: null
+    imagePath1: "",
+    imageSrc2: null,
+    imagePath2: null
   }),
+  methods: {
+    publish() {
+      // if (instagramPublish) postInstagram(selectedImagePath, instagramCaption);
+      if (twitterPublish) postTwitter(selectedImagePath, twitterCaption);
+      if (linkedInPublish) postLinkedIn(selectedImagePath, linkedInCaption);
+      if (facebookPublish) postFacebook(selectedImagePath, facebookCaption);
+    }
+  },
   created() {
     getSummary(this.$route.query.articleUrl).then(({data}) => {
       this.pressRelease = data.summary;
@@ -138,6 +149,8 @@ export default {
         .then(({data}) => {
           this.imageSrc1 = data.url1;
           this.imageSrc2 = data.url2;
+          this.imagePath1 = data.image1,
+          this.imagePath2 = data.image2
         })
     }).catch((e) => {
       console.error(e);

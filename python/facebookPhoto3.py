@@ -22,7 +22,7 @@ def uploadImageToFacebook(filepath, captionForPhotos):
     }
 
     # Set the file paths of the images to be uploaded
-    filepath = '1.jpg'
+    # filepath = '1.jpg'
 
     # Open the image files and make the requests
     #for filepath in filepaths:

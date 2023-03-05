@@ -3,6 +3,10 @@ from keywordSearch1 import searchScholarForKeywords
 from summarize import generate_summary, generate_Chad_Social, generate_Chad_Dalle
 from scrapeNIH import getArticle
 from generateDalleImage4 import generateDalleImage
+from facebookPhoto3 import uploadImageToFacebook
+from instagramPost3 import uploadImageToInstagram
+from twitterUploadImage3 import uploadTweetWithImage
+from linkedInFullImagePost3 import uploadImageToLinkedIn
 
 app = Flask(__name__)
 
@@ -32,6 +36,34 @@ def get_images():
   dallePrompt = generate_Chad_Dalle(summary) # string
   images = generateDalleImage(dallePrompt)
   return jsonify(images)
+
+@app.route('/python-api/postFacebook', methods=['POST'])
+def post_facebook():
+  path = request.json['path']
+  caption = request.json['caption']
+  uploadImageToFacebook(path, caption)
+  return "good boy"
+
+@app.route("/python-api/postInstagram", methods=['POST'])
+def post_instagram():
+  path = request.json['path']
+  caption = request.json['caption']
+  uploadImageToInstagram(path, caption)
+  return "good boy"
+
+@app.route("/python-api/postLinkedIn", methods=['POST'])
+def post_linkedin():
+  path = request.json['path']
+  caption = request.json['caption']
+  uploadImageToLinkedIn(path, caption)
+  return "good boy"
+
+@app.route("/python-api/postTwitter", methods=['POST'])
+def post_twitter():
+  path = request.json['path']
+  caption = request.json['caption']
+  uploadTweetWithImage(path, caption)
+  return "good boy"
 
 if __name__ == '__main__':
   app.run()
