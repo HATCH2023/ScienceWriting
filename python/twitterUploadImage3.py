@@ -175,14 +175,20 @@ def uploadTweetWithImage(VIDEO_FILENAME, tweetText, user = 'scriptordemo'):
 
       req = requests.post(url=POST_TWEET_URL, data=request_data, auth=oauth)
       print(req.json())
+  
+  videoTweet = VideoTweet(VIDEO_FILENAME)
+  videoTweet.upload_init()
+  videoTweet.upload_append()
+  videoTweet.upload_finalize()
+  videoTweet.tweet()
 
 
-  if __name__ == '__main__':
-    videoTweet = VideoTweet(VIDEO_FILENAME)
-    videoTweet.upload_init()
-    videoTweet.upload_append()
-    videoTweet.upload_finalize()
-    videoTweet.tweet()
+  # if __name__ == '__main__':
+    # videoTweet = VideoTweet(VIDEO_FILENAME)
+    # videoTweet.upload_init()
+    # videoTweet.upload_append()
+    # videoTweet.upload_finalize()
+    # videoTweet.tweet()
 
 #########################################################################################
 
