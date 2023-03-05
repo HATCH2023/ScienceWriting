@@ -2,9 +2,9 @@
   <v-row>
     <v-spacer />
     <v-col cols="12" md="8">
-      <div class="text-h3 pa-4 text-center">Articles on {{ searchTerms }}</div>
+      <div class="text-h4 pa-4 text-center">Scientific Articles on {{ searchTerms }}</div>
       <v-card
-        @click.stop="selectedResult(article)"
+        @click="selectResult(article)"
         :class="{ selected: selectedResult === article }"
         class="my-4"
         v-for="article in articles"
@@ -12,6 +12,9 @@
       >
         <v-card-title>{{ article.resultTitle }}</v-card-title>
         <v-card-text>{{ article.resultSnippet }}</v-card-text>
+        <v-card-actions>
+          <v-spacer /><v-btn target="_blank" :href="article.resultLink" text><v-icon left>mdi-eye</v-icon>Preview</v-btn>
+        </v-card-actions>
       </v-card>
     </v-col>
     <v-spacer />
@@ -53,6 +56,6 @@ export default {
 
 <style scoped>
 .selected {
-  border: 3px solid skyblue;
+  background: #0e586f;
 }
 </style>

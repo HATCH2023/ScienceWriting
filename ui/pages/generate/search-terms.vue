@@ -8,7 +8,7 @@
         v-model="searchTerms"
         solo
         prepend-icon="mdi-magnify"
-        :placeholder="exampleTerm"
+        label="Search for terms to generate a paper"
       >
         <template v-slot:append>
           <v-btn color="primary" @click="search">
@@ -22,19 +22,6 @@
 </template>
 
 <script>
-const randomScienceTerms = [
-  'Ecosystem services',
-  'Genetically modified organisms',
-  'Carbon footprint',
-  'Machine learning',
-  'Solar power',
-  'Brain plasticity',
-  'Nanomedicine',
-  'Genetic engineering',
-  'Quantum computing',
-  'Planetary geology'
-]
-
 export default {
   name: "SearchTerms",
   head() {
@@ -55,9 +42,7 @@ export default {
     searchTerms: ""
   }),
   computed: {
-    exampleTerm() {
-      return randomScienceTerms[Math.floor(Math.random() * randomScienceTerms.length)]
-    }
+    
   },
   methods: {
     search() {
