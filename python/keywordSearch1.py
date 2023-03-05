@@ -1,5 +1,10 @@
 from serpapi import GoogleSearch
 import json, re
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file
+google_scholar_api_key = os.getenv('GOOGLE_SCHOLAR_API_KEY')
 
 miniJSONList = []
 
@@ -13,14 +18,14 @@ startIndexForSearch = 0
 
 #keywordSearch = 'obesity genes'  #'obesity genes'
 
-def searchScholarForKeywords(keywordToSearchFor, startingIndex):
+def searchScholarForKeywords(keywordToSearchFor, startingIndex = 0):
    
     params = {
     "engine": "google_scholar",
     "q": keywordToSearchFor + ' site:ncbi.nlm.nih.gov',
     "hl": "en",
     #"as_ylo": "2018",
-    "api_key": "",
+    "api_key": google_scholar_api_key,
     "num": "20",
     "start": startingIndex
     }
@@ -102,7 +107,7 @@ def searchScholarForKeywords(keywordToSearchFor, startingIndex):
     except:
         pass
 
-    #print('organicResults', organicResults)
+    # print('organicResults', organicResults)
 
     for result in organicResults:
 
@@ -190,6 +195,7 @@ def searchScholarForKeywords(keywordToSearchFor, startingIndex):
                         pass
                 except:
                     resultAuthors = ''
+                    authorList = []
                 #print('resultAuthors', resultAuthors)
 
                 try:
