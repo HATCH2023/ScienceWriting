@@ -42,7 +42,7 @@ def getArticle(URL):
     #ContinueBoolean = int(input("Enter 1 to continue: "))
 
     # time.sleep(5)
-    WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, "//*[@id='ui-ncbiinpagenav-1']")))
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//*[@id='ui-ncbiinpagenav-1']")))
 
     pageSource = driver.page_source
 

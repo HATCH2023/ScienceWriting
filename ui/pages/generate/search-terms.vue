@@ -4,6 +4,7 @@
     <v-col cols="12" md="6">
       <v-img contain src="/header.png"></v-img>
       <v-text-field
+        autofocus
         @keypress.enter="search"
         v-model="searchTerms"
         solo
