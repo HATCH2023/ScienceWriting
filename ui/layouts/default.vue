@@ -37,7 +37,7 @@
       <v-btn v-else-if="$route.path !== '/login'" text to="/login">Log In</v-btn>
     </v-app-bar>
     <v-main>
-      <v-container class="full-height">
+      <v-container>
         <Nuxt />
       </v-container>
     </v-main>

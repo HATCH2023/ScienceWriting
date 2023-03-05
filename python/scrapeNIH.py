@@ -24,25 +24,24 @@ import json
 import time
 import re
 
-# start web browser
-options=webdriver.ChromeOptions()
-#options.add_argument('headless')
-#options.setExperimentalOption() #'new List<string>() { "enable-automation" }'
-options.add_experimental_option('excludeSwitches', ['load-extension', 'enable-automation'])
-options.add_argument("--window-size=1,1")
-#options.add_experimental_option('debuggerAddress','localhost:9014')
-#options.setExperimentalOption('debuggerAddress','localhost:9014')
-capa = DesiredCapabilities.CHROME
-driver=webdriver.Chrome(chrome_options=options, desired_capabilities=capa)
-
 
 def getArticle(URL):
+    # start web browser
+    options=webdriver.ChromeOptions()
+    #options.add_argument('headless')
+    #options.setExperimentalOption() #'new List<string>() { "enable-automation" }'
+    options.add_experimental_option('excludeSwitches', ['load-extension', 'enable-automation'])
+    options.add_argument("--window-size=1,1")
+    #options.add_experimental_option('debuggerAddress','localhost:9014')
+    #options.setExperimentalOption('debuggerAddress','localhost:9014')
+    capa = DesiredCapabilities.CHROME
+    driver=webdriver.Chrome(chrome_options=options, desired_capabilities=capa)
 
     driver.get(URL)
 
     #ContinueBoolean = int(input("Enter 1 to continue: "))
 
-    #time.sleep(10)
+    # time.sleep(5)
     WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, "//*[@id='ui-ncbiinpagenav-1']")))
 
     pageSource = driver.page_source

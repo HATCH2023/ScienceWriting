@@ -3,8 +3,12 @@
     <v-spacer />
     <v-col cols="12" md="8">
       <div class="text-h4 pa-4 text-center">Scientific Articles on {{ searchTerms }}</div>
+      <div v-if="loading" class="text-center mt-12">
+        <v-progress-circular :size="128" :width="7" indeterminate color="primary" />
+      </div>
       <v-card
-        @click="selectResult(article)"
+        v-else
+        @click="selectedResult = article"
         :class="{ selected: selectedResult === article }"
         class="my-4"
         v-for="article in articles"
@@ -16,6 +20,9 @@
           <v-spacer /><v-btn target="_blank" :href="article.resultLink" text><v-icon left>mdi-eye</v-icon>Preview</v-btn>
         </v-card-actions>
       </v-card>
+      <div class="text-right" v-if="!loading">
+        <v-btn color="primary" @click="next">Next<v-icon right>mdi-chevron-right</v-icon></v-btn>
+      </div>
     </v-col>
     <v-spacer />
   </v-row>
@@ -37,18 +44,23 @@ export default {
     }
   },
   methods: {
-    selectResult(article) {
-      if (this.selectedResult === article)
-        this.selectedResult = null;
-      else
-        this.selectedResult = article;
+    next() {
+      this.$router.push({
+        path: "/generate/review-content",
+        query: {
+          articleUrl: this.selectedResult.resultLink,
+        }
+      });
     }
   },
   created() {
-    getArticlesForKeywords(this.searchTerm, this.lastValidResultIndex).then(({data}) => {
+    getArticlesForKeywords(this.searchTerms, this.lastValidResultIndex).then(({data}) => {
       this.articles = data.resultList;
       this.lastValidResultIndex = data.lastValidResultIndex;
       this.loading = false;
+
+      // Select the first result by default
+      this.selectedResult = this.articles[0];
     });
   }
 }
