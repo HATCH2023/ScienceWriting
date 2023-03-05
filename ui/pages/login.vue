@@ -35,7 +35,7 @@
                   @keypress.enter="processSignIn"
                   label="Role"
                   required
-                  v-model="role"
+                  v-model="role"  
                   :items="['Writer', 'Editor', 'Science Reviewer', 'Legal Reviewer']"
                 />
               </div>
