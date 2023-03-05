@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from keywordSearch1 import searchScholarForKeywords
-from summarize import generate_summary
+from summarize import generate_summary, generate_Chad_Social
 from scrapeNIH import getArticle
 
 app = Flask(__name__)
@@ -22,8 +22,7 @@ def get_article():
 @app.route('/python-api/platformContent', methods=['POST'])
 def get_platform_content():
   summary = request.json['summary']
-  # call jacob's function here
-  platform_content = {'ass': 'hole'}
+  platform_content = generate_Chad_Social(summary)
   return jsonify(platform_content)
 
 if __name__ == '__main__':

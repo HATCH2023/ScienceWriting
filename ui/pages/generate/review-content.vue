@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import { getSummary } from "@/api/dataService";
+import { getSummary, getPlatformContent } from "@/api/dataService";
 export default {
   name: "ReviewContent",
   data: () => ({
@@ -87,7 +87,36 @@ export default {
   created() {
     getSummary(this.$route.query.articleUrl).then(({data}) => {
       this.pressRelease = data.summary;
-    }).catch(() => {
+      getPlatformContent(data.summary)
+        .then(({data}) => {
+          data.forEach((platform) => {
+            switch (platform.platform) {
+              case "Instagram":
+                this.instagramCaption = platform.post;
+                // this.instagramImageUrl = platform.imageUrl;
+                break;
+              case "Twitter":
+                this.twitterCaption = platform.post;
+                // this.twitterImageUrl = platform.imageUrl;
+                break;
+              case "LinkedIn":
+                this.linkedInCaption = platform.post;
+                // this.linkedInImageUrl = platform.imageUrl;
+                break;
+              case "Facebook":
+                this.facebookCaption = platform.post;
+                // this.facebookImageUrl = platform.imageUrl;
+                break;
+              case "Blog":
+                this.blogPost = platform.post;
+                break;
+              default:
+                break;
+            }
+          });
+        })
+    }).catch((e) => {
+      console.error(e);
       this.snackbar = true;
     });
   }

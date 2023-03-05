@@ -6,5 +6,5 @@ export const getArticlesForKeywords = (keywords, index = 0) =>
 export const getSummary = (url) =>
   axios.get(`/python-api/summarize?url=${encodeURIComponent(url)}`);
 
-export const getPlatormContent = (summary) =>
+export const getPlatformContent = (summary) =>
   axios.post('/python-api/platformContent', { summary });
