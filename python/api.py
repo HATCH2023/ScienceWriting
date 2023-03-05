@@ -3,7 +3,7 @@ from keywordSearch1 import searchScholarForKeywords
 
 app = Flask(__name__)
 
-@app.route('/articles')
+@app.route('/python-api/articles')
 def get_articles():
   keywords = request.args.get('keywords')
   index = request.args.get('index')

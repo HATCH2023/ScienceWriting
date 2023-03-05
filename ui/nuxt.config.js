@@ -53,6 +53,10 @@ export default {
   },
 
   proxy: {
+    '/python-api': {
+      target: 'http://localhost:5000',
+      // rewrite: path => path.replace(/^\/python-api/, '/')
+    },
     '/api': {
       target: 'http://localhost:3069',
     }
