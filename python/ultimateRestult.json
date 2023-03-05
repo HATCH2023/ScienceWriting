@@ -1,0 +1,497 @@
+{
+    "searchSuccess": "Success",
+    "createdAtDateTime": "2023-03-05 04:17:55 UTC",
+    "searchURL": "https://scholar.google.com/scholar?q=obesity+genes+site%3Ancbi.nlm.nih.gov&hl=en&start=0&num=21",
+    "searchInfoOrganicState": "Results for exact spelling",
+    "searchInfoTotalResults": "",
+    "searchInfoQueryDisplayed": "obesity genes site:ncbi.nlm.nih.gov",
+    "searchInfoSpellingFixed": "",
+    "resultList": [
+        {
+            "resultPosition": 0,
+            "resultTitle": "Obesity genes and insulin resistance",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079383/",
+            "resultID": "W2iazmGGvc0J",
+            "resultSnippet": "  The chance discovery of a genetic mutation in the Brd2 gene, which is located in the class II major histocompatibility complex and makes mice enormously fat but protects them from  ",
+            "resultPublicationInfoSummary": "AC Belkina, GV Denis -   in endocrinology, diabetes, and obesity, 2010 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "AC Belkina",
+                    "link": "https://scholar.google.com/citations?user=MPFtYX8AAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=MPFtYX8AAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "MPFtYX8AAAAJ"
+                },
+                {
+                    "name": "GV Denis",
+                    "link": "https://scholar.google.com/citations?user=2f8xa-oAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=2f8xa-oAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "2f8xa-oAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079383/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=W2iazmGGvc0J",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:W2iazmGGvc0J:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AW2iazmGGvc0J%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 11,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=14825153303009716315&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 1,
+            "resultTitle": "Genetic and epigenetic causes of obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6226269/",
+            "resultID": "jztdMngDlbAJ",
+            "resultSnippet": "  obesity. This review summarizes the current knowledge on the known genetic causes of obesity and   This review will address the identified genetic causes of obesity, and summarize the  ",
+            "resultPublicationInfoSummary": "VV Thaker - Adolescent medicine: state of the art reviews, 2017 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "VV Thaker",
+                    "link": "https://scholar.google.com/citations?user=M0bo7NwAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=M0bo7NwAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "M0bo7NwAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6226269/?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=jztdMngDlbAJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:jztdMngDlbAJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AjztdMngDlbAJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 3,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=12724080136981134223&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 2,
+            "resultTitle": "The clinical biochemistry of obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1880830/",
+            "resultID": "DQ7vxzYlFGQJ",
+            "resultSnippet": "  the more common forms of obesity. Some genetic syndromes often have obesity as part of a   Although it was hoped that leptin deficiency caused obesity, we now know that obesity  ",
+            "resultPublicationInfoSummary": "KA Sikaris - The Clinical Biochemist Reviews, 2004 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "VV Thaker",
+                    "link": "https://scholar.google.com/citations?user=M0bo7NwAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=M0bo7NwAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "M0bo7NwAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1880830/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=DQ7vxzYlFGQJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:DQ7vxzYlFGQJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3ADQ7vxzYlFGQJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 8,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=7211429820539801101&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 3,
+            "resultTitle": "Obesity gene atlas in mammals",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4091431/",
+            "resultID": "6dZTh5APSxgJ",
+            "resultSnippet": "  Sense oriented obesity associated miRNA genes from our obesity database overlapped   host genes. Interestingly, three of the host genes have been previously associated with obesity:  ",
+            "resultPublicationInfoSummary": "T Kunej, DJ Skok, M Zorc, A Ogrinc, JJ Michal  - Journal of  , 2013 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "M Zorc",
+                    "link": "https://scholar.google.com/citations?user=TRH2rkQAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=TRH2rkQAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "TRH2rkQAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4091431/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=6dZTh5APSxgJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:6dZTh5APSxgJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A6dZTh5APSxgJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 14,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=1750509993583695593&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 4,
+            "resultTitle": "Genetic & epigenetic approach to human obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311311/",
+            "resultID": "s_VvGvVaz6sJ",
+            "resultSnippet": "  is highly heritable and arises from the interplay of multiple genes   genetic risks and identification of genetic markers for lifestyle diseases, especially for a metabolic disorder like obesity.  ",
+            "resultPublicationInfoSummary": "KR Rao, N Lal, NV Giridharan - The Indian journal of medical  , 2014 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "KR Rao",
+                    "link": "https://scholar.google.com/citations?user=ATLbM2gAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ATLbM2gAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "ATLbM2gAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311311/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=s_VvGvVaz6sJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:s_VvGvVaz6sJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3As_VvGvVaz6sJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 11,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=12380213909421815219&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 5,
+            "resultTitle": "Obesity in children",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3005642/",
+            "resultID": "JIbibD_pElQJ",
+            "resultSnippet": "  The human obesity gene map has been documented, residing in 45 chromosomes (http://  obesity associations with 127 genes uncovered. Years before, the role of genetics in obesity  ",
+            "resultPublicationInfoSummary": "F Lifshitz - Journal of clinical research in pediatric endocrinology, 2008 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "KR Rao",
+                    "link": "https://scholar.google.com/citations?user=ATLbM2gAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ATLbM2gAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "ATLbM2gAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3005642/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=JIbibD_pElQJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:JIbibD_pElQJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AJIbibD_pElQJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 4,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=6058160907385734692&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 6,
+            "resultTitle": "Clustering of hypertension, diabetes, and obesity in adult male twins: same genes or same environments?",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1918417/",
+            "resultID": "tDQHvri7C58J",
+            "resultSnippet": "  mediating role of genetic factors in the clustering of hypertension, diabetes, and obesity, us  and weight was used asa measure of obesity. Descriptive analyses indicated probandwise  ",
+            "resultPublicationInfoSummary": "D Carmelli, LR Cardon, R Fabsitz -   journal of human genetics, 1994 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "LR Cardon",
+                    "link": "https://scholar.google.com/citations?user=Vd0GlBkAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Vd0GlBkAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "Vd0GlBkAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "PDF",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1918417/pdf/ajhg00042-0151.pdf",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=tDQHvri7C58J",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:tDQHvri7C58J:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AtDQHvri7C58J%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 10,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=11460460078910878900&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 7,
+            "resultTitle": "Lifestyle genetics-based reports in the treatment of obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8790989/",
+            "resultID": "1lXj8c1EZ5QJ",
+            "resultSnippet": "  obesity management programs using dietary interventions and physical activity. Some important genetic variants of obesity   personalized treatment approaches for obesity management.  ",
+            "resultPublicationInfoSummary": "A Gasmi, S Noor, S Piscopo, A Menzel - Archives of Razi Institute, 2021 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "A Gasmi",
+                    "link": "https://scholar.google.com/citations?user=AGJ2m70AAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=AGJ2m70AAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "AGJ2m70AAAAJ"
+                },
+                {
+                    "name": "S Noor",
+                    "link": "https://scholar.google.com/citations?user=EQY2oAcAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=EQY2oAcAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "EQY2oAcAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8790989/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=1lXj8c1EZ5QJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:1lXj8c1EZ5QJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A1lXj8c1EZ5QJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 7,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=10693591491531724246&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 8,
+            "resultTitle": "Thinking evolutionarily about obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4031802/",
+            "resultID": "mOFEx5iiaL8J",
+            "resultSnippet": "  If obesity is caused by a mismatch between our genes and the environment we currently live in, changing the environment to match how our genomes have adapted should reverse  ",
+            "resultPublicationInfoSummary": "EA Genn -Bacon - The Yale journal of biology and medicine, 2014 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "A Gasmi",
+                    "link": "https://scholar.google.com/citations?user=AGJ2m70AAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=AGJ2m70AAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "AGJ2m70AAAAJ"
+                },
+                {
+                    "name": "S Noor",
+                    "link": "https://scholar.google.com/citations?user=EQY2oAcAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=EQY2oAcAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "EQY2oAcAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4031802/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=mOFEx5iiaL8J",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:mOFEx5iiaL8J:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AmOFEx5iiaL8J%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 8,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=13792452635884052888&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 9,
+            "resultTitle": "Social environmental and genetic influences on obesity and obesity-promoting behaviors: fostering research integration",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/sites/books/NBK19935/",
+            "resultID": "MRfx8k0uTOsJ",
+            "resultSnippet": "  obesity is a  complex disorder.  For most individuals in the population, obesity results from multiple genetic   Genes operate additively and through gene-gene interactions to influence  ",
+            "resultPublicationInfoSummary": "MS Faith, TVE Kral - Genes, behavior, and the social environment  , 2006 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "TVE Kral",
+                    "link": "https://scholar.google.com/citations?user=_Fjz-S8AAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_Fjz-S8AAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "_Fjz-S8AAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/sites/books/NBK19935/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=MRfx8k0uTOsJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:MRfx8k0uTOsJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AMRfx8k0uTOsJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 4,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=16954977609466320689&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 11,
+            "resultTitle": "How mice are indispensable for understanding obesity and diabetes genetics",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5837807/",
+            "resultID": "C6uXAN1TpScJ",
+            "resultSnippet": "  Mutations in the melanocortin-4 receptor (MC4R) are the most common genetic cause of obesity in humans and the receptor is a target for drugs to treat obesity (25). Genetics of  ",
+            "resultPublicationInfoSummary": "AD Attie, GA Churchill, JH Nadeau -   , diabetes, and obesity, 2017 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "GA Churchill",
+                    "link": "https://scholar.google.com/citations?user=lfdvCjEAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=lfdvCjEAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "lfdvCjEAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5837807/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=C6uXAN1TpScJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:C6uXAN1TpScJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AC6uXAN1TpScJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 7,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=2856781747299265291&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 12,
+            "resultTitle": "Defining the neural basis of appetite and obesity: from genes to behaviour",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4952542/",
+            "resultID": "9Tx9xnfq4usJ",
+            "resultSnippet": "  are disrupted to contribute to obesity. Working with colleagues   several genes whose disruption leads to severe obesity that   that link genetic changes to obesity and associated clinical  ",
+            "resultPublicationInfoSummary": "IS Farooqi - Clinical medicine, 2014 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "IS Farooqi",
+                    "link": "https://scholar.google.com/citations?user=fFQ1XSkAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fFQ1XSkAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "fFQ1XSkAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4952542/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=9Tx9xnfq4usJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:9Tx9xnfq4usJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A9Tx9xnfq4usJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 9,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=16997405743801777397&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 13,
+            "resultTitle": "Complex relationship between obesity and the fat mass and obesity locus",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441178/",
+            "resultID": "8eyBDrj8pNoJ",
+            "resultSnippet": "  on obesity is a worldwide epidemiology. This locus is an important gene that contributes to obesity   In this paper, we reviewed the recent development of FTO as an obesity gene to  ",
+            "resultPublicationInfoSummary": "Q Yang, T Xiao, J Guo, Z Su - International journal of biological  , 2017 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "IS Farooqi",
+                    "link": "https://scholar.google.com/citations?user=fFQ1XSkAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fFQ1XSkAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "fFQ1XSkAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5441178/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=8eyBDrj8pNoJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:8eyBDrj8pNoJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A8eyBDrj8pNoJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 7,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=15754995263896415473&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 14,
+            "resultTitle": "Genetic factors in obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1806342/",
+            "resultID": "ADU1D_1fE_EJ",
+            "resultSnippet": "  rapidly, while that of the non-obese mice (one out of three of which carries the obese gene) tapers off. At three months, the weight of the obese mice can be twice that of the non-obese  ",
+            "resultPublicationInfoSummary": "J Mayer - Bulletin of the New York Academy of Medicine, 1960 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "IS Farooqi",
+                    "link": "https://scholar.google.com/citations?user=fFQ1XSkAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fFQ1XSkAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "fFQ1XSkAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "PDF",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1806342/pdf/bullnyacadmed00338-0063.pdf",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=ADU1D_1fE_EJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:ADU1D_1fE_EJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AADU1D_1fE_EJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 4,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=17371333728184644864&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 15,
+            "resultTitle": "Metabolic thrift and the genetic basis of human obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4057799/",
+            "resultID": "GyVq3xUHrJIJ",
+            "resultSnippet": "  within us a genetic predisposition towards overweight and obesity. This genetic heritage was   when thrust into our modern obesogenic environment, has led to the current obesity crisis.  ",
+            "resultPublicationInfoSummary": "RW O'Rourke - Annals of surgery, 2014 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "RW O'Rourke",
+                    "link": "https://scholar.google.com/citations?user=44SttAgAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=44SttAgAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "44SttAgAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4057799/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=GyVq3xUHrJIJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:GyVq3xUHrJIJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AGyVq3xUHrJIJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 5,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=10568830216055694619&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 16,
+            "resultTitle": "Pre and post-natal risk and determination of factors for child obesity",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5141399/",
+            "resultID": "xuOk2v5XI9EJ",
+            "resultSnippet": "  There are currently more than 600 genes, markers and chromosomal regions known to be associated to Ob, the obesity gene. The obesity gene was discovered in 1994. This  ",
+            "resultPublicationInfoSummary": "LM Trandafir, OR Temneanu - Journal of medicine and life, 2016 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "OR Temneanu",
+                    "link": "https://scholar.google.com/citations?user=36ET-GoAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=36ET-GoAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "36ET-GoAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5141399/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=xuOk2v5XI9EJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:xuOk2v5XI9EJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AxuOk2v5XI9EJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 7,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=15069985530213360582&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 17,
+            "resultTitle": "Obesity. Part I--Pathogenesis.",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1026489/",
+            "resultID": "QZxaxFT4nUoJ",
+            "resultSnippet": "  Clinical Types of Obesity Genetic Factors In humanobesity, genetic factors manifest   of obesity in which genetic factors are of prime importance. Second, there is a genetic substrate upon  ",
+            "resultPublicationInfoSummary": "GA Bray, DS Gray - Western Journal of Medicine, 1988 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "GA Bray",
+                    "link": "https://scholar.google.com/citations?user=PiDXKNkAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=PiDXKNkAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "PiDXKNkAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "PDF",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1026489/pdf/westjmed00134-0049.pdf",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=QZxaxFT4nUoJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:QZxaxFT4nUoJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AQZxaxFT4nUoJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 6,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=5376726573105454145&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 18,
+            "resultTitle": "Genetic variants influencing effectiveness of exercise training programmes in obesity an overview of human studies",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4993135/",
+            "resultID": "cXJ9zCD6MYYJ",
+            "resultSnippet": "  We describe the most reliable candidate genetic markers that are involved in energy   understanding of the genetic factors that influence obesity-related traits, as well as gene variant x  ",
+            "resultPublicationInfoSummary": "A Leo ska-Duniec, II Ahmetov, P Zmijewski - Biology of Sport, 2016 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "A Leo ska-Duniec",
+                    "link": "https://scholar.google.com/citations?user=mQqPmvkAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=mQqPmvkAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "mQqPmvkAAAAJ"
+                },
+                {
+                    "name": "II Ahmetov",
+                    "link": "https://scholar.google.com/citations?user=r-hyP5sAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=r-hyP5sAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "r-hyP5sAAAAJ"
+                },
+                {
+                    "name": "P Zmijewski",
+                    "link": "https://scholar.google.com/citations?user=H1n7fM8AAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=H1n7fM8AAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "H1n7fM8AAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4993135/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=cXJ9zCD6MYYJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:cXJ9zCD6MYYJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AcXJ9zCD6MYYJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 12,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=9669784893717836401&hl=en&num=20&as_sdt=0,5"
+        },
+        {
+            "resultPosition": 19,
+            "resultTitle": "Peer Reviewed: Addressing the Obesity Epidemic: A Genomics Perspective",
+            "resultLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1893129/",
+            "resultID": "bS190_h2twEJ",
+            "resultSnippet": "  nature of common obesity, which is caused by the interaction of genes, environment, and   The four levels are 1) genetic obesity   genetic mutation in a single gene leads to obesity  ",
+            "resultPublicationInfoSummary": "A Zlot, A Newell, K Silvey, K Arail - Preventing chronic disease, 2007 - ncbi.nlm.nih.gov",
+            "resultAuthors": [
+                {
+                    "name": "A Zlot",
+                    "link": "https://scholar.google.com/citations?user=NBTRAogAAAAJ&hl=en&num=20&oi=sra",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NBTRAogAAAAJ&engine=google_scholar_author&hl=en",
+                    "author_id": "NBTRAogAAAAJ"
+                }
+            ],
+            "resultResourceTitle": "nih.gov",
+            "resultResourceFileFormat": "HTML",
+            "resultResourceLink": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1893129/",
+            "resultCiteLink": "https://serpapi.com/search.json?engine=google_scholar_cite&q=bS190_h2twEJ",
+            "resultRelatedLink": "https://scholar.google.com/scholar?q=related:bS190_h2twEJ:scholar.google.com/&scioq=obesity+genes+site:ncbi.nlm.nih.gov&hl=en&num=20&as_sdt=0,5",
+            "resultRelatedAPILink": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AbS190_h2twEJ%3Ascholar.google.com%2F&start=0",
+            "resultVersionsQuantity": 9,
+            "resultVersionsLink": "https://scholar.google.com/scholar?cluster=123698325848141165&hl=en&num=20&as_sdt=0,5"
+        }
+    ]
+}
