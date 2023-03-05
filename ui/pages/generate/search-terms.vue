@@ -4,13 +4,14 @@
     <v-col cols="12" md="6">
       <v-img contain src="/header.png"></v-img>
       <v-text-field
+        @keypress.enter="search"
         v-model="searchTerms"
         solo
         prepend-icon="mdi-magnify"
         :placeholder="exampleTerm"
       >
         <template v-slot:append>
-          <v-btn color="primary" @click="search" @keypress.enter="search">
+          <v-btn color="primary" @click="search">
             Go
           </v-btn>
         </template>

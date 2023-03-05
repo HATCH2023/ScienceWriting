@@ -29,11 +29,12 @@
       app
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-toolbar-title>Scriptor</v-toolbar-title>
+      <v-toolbar-title>{{ title || "Scriptor" }}</v-toolbar-title>
 
       <v-spacer />
 
-      <v-btn text to="/account-settings">Hi, Will<v-icon right>mdi-account-circle</v-icon></v-btn>
+      <v-btn v-if="loggedIn" text to="/account-settings">Hi, {{ firstName }}<v-icon right>mdi-account-circle</v-icon></v-btn>
+      <v-btn v-else-if="$route.path !== '/login'" text to="/login">Log In</v-btn>
     </v-app-bar>
     <v-main>
       <v-container class="full-height">
@@ -44,6 +45,7 @@
 </template>
 
 <script>
+import { mapState, mapGetters } from "vuex";
 export default {
   name: 'DefaultLayout',
   data () {
@@ -60,8 +62,14 @@ export default {
           title: 'Publish',
           to: '/inspire'
         }
-      ],
-      title: 'Vuetify.js'
+      ]
+    }
+  },
+  computed: {
+    ...mapState('user', ['firstName']),
+    ...mapGetters('user', ['loggedIn',]),
+    title () {
+      return this.$route.meta.title
     }
   }
 }
