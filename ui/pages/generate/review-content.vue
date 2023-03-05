@@ -2,18 +2,18 @@
   <v-row>
     <v-col cols="12">
       <v-card class="mb-8">
-        <v-card-actions><v-card-title>Review Generated Content</v-card-title><v-spacer /><v-btn @click="publish" color="primary">Publish<v-icon right>mdi-earth</v-icon></v-btn></v-card-actions>
+        <v-card-actions><v-card-title>Review Generated Content</v-card-title><v-spacer /><v-btn :disabled="selectedImage === null" @click="publish" color="primary">Publish<v-icon right>mdi-earth</v-icon></v-btn></v-card-actions>
       </v-card>
       <v-card>
         <v-card-text>
-          <v-tabs v-model="tab" bg-color="primary">
-            <v-tab value="pressRelease"><v-icon left>mdi-typewriter</v-icon>Press Release</v-tab>
-            <v-tab value="blog"><v-icon left>mdi-post</v-icon>Blog</v-tab>
-            <v-tab value="facebook"><v-icon left>mdi-facebook</v-icon>Facebook</v-tab>
-            <v-tab value="linkedIn"><v-icon left>mdi-linkedin</v-icon>LinkedIn</v-tab>
-            <v-tab value="twitter"><v-icon left>mdi-twitter</v-icon>Twitter</v-tab>
-            <v-tab value="instagram"><v-icon left>mdi-instagram</v-icon>Instagram</v-tab>
-            <v-tab value="instagram"><v-icon left>mdi-image</v-icon>Image</v-tab>
+          <v-tabs icons-and-text v-model="tab" bg-color="primary">
+            <v-tab value="pressRelease">Press Release<v-icon>mdi-typewriter</v-icon></v-tab>
+            <v-tab value="blog">Blog<v-icon>mdi-post</v-icon></v-tab>
+            <v-tab value="facebook">Facebook<v-icon>mdi-facebook</v-icon></v-tab>
+            <v-tab value="linkedIn">LinkedIn<v-icon>mdi-linkedin</v-icon></v-tab>
+            <v-tab value="twitter">Twitter<v-icon>mdi-twitter</v-icon></v-tab>
+            <v-tab value="instagram">Instagram<v-icon>mdi-instagram</v-icon></v-tab>
+            <v-tab value="instagram">Image<v-icon>mdi-image</v-icon></v-tab>
           </v-tabs>
 
           <v-tabs-items v-model="tab">
@@ -112,9 +112,9 @@ export default {
   methods: {
     publish() {
       // if (instagramPublish) postInstagram(selectedImagePath, instagramCaption);
-      if (twitterPublish) postTwitter(selectedImagePath, twitterCaption);
-      if (linkedInPublish) postLinkedIn(selectedImagePath, linkedInCaption);
-      if (facebookPublish) postFacebook(selectedImagePath, facebookCaption);
+      if (this.twitterPublish) postTwitter(this.selectedImagePath, this.twitterCaption);
+      if (this.linkedInPublish) postLinkedIn(this.selectedImagePath, this.linkedInCaption);
+      if (this.facebookPublish) postFacebook(this.selectedImagePath, this.facebookCaption);
     }
   },
   created() {

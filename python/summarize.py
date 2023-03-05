@@ -174,7 +174,7 @@ def generate_Chad_Social(article):
     
     #print(socialArray)
     
-    return json.loads(socialArray) #input_str)
+    return socialArray #json.loads(socialArray) #input_str)
 
 #########DALL-E AI PROMPT#########
 def generate_Chad_Dalle(article):
