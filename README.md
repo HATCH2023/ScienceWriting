@@ -1,4 +1,4 @@
-# Science Writing
+# Science Scribbles
 Scriptor was submitted for the 2023 Hudson Alpha Tech Challenge
 ### Team Members:   
 Molly (Graphics/Presentation/Idea Generation)  
